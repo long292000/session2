@@ -1,0 +1,123 @@
+//1.
+// boolean là kiêu dữ liệu trả về true hoặc false
+// ví dụ: 
+// Console.log( "0209" == "0212"); //false
+// console.log( "0209" != "0212");   //true
+// console.log( "long" != "longlong" ); //true
+
+//2.
+// A flowchart is a visual representation of the sequence of steps and decisions needed to perform a process.
+//  Each step in the sequence is noted within a diagram shape. 
+//  Steps are linked by connecting lines and directional arrows.
+//  This allows anyone to view the flowchart and logically follow the process from beginning to end.
+
+//3.
+// if (number === 0) {
+//     numberSign = "neutral";
+//   } else {
+//     if (number > 0) {
+//       numberSign = "positive";
+//     } else {
+//       numberSign = "negative";
+//     }
+//   }
+// “Nesting” conditional statements means that you can use one if or else if statement inside another if or else if statement(s)
+
+//1.
+// color("red")
+// rt(30)
+// fd(90)
+// lt(60)
+// fd(90)
+// lt(120)
+// fd(90)
+// lt(60)
+// fd(180)
+// rt(60)
+// fd(90)
+// rt(120)
+// fd(90)
+// rt(60)
+// fd(90)
+// lt(120)
+// rt(30)
+// fd(90)
+// lt(60)
+// fd(90)
+// lt(120)
+// fd(90)
+// lt(60)
+// fd(180)
+// rt(60)
+// fd(90)
+// rt(120)
+// fd(90)
+// rt(60)
+// fd(90)
+
+//2.
+// color("red")
+// rt(90)
+// fd(90)
+// for(i=0;i<=4;i++)
+// {lt(60)
+// fd(90)}
+// home()
+// color("blue")
+// rt(90)
+// fd(90)
+// for(i=0;i<=3;i++)
+// {lt(72)
+// fd(90)}
+// home()
+// color("red")
+// rt(90)
+// fd(90)
+// for(i=0;i<=2;i++)
+// {lt(90)
+// fd(90)}
+// home()
+// color("blue")
+// rt(90)
+// fd(90)
+// for(i=0;i<=1;i++)
+// {lt(120)
+// fd(90)}
+
+//1.
+// let mass=parseInt(prompt("Nhập cân nặng (kg)"));
+// let heightCentimeter=parseInt(prompt("Nhập chiều cao (cm)"));
+// let heightMeter=heightCentimeter/100;
+// let BMI= mass/(heightMeter*heightMeter);
+// BMI=BMI.toFixed(1);
+// if(BMI<16)
+// {
+//     console.log(`Your BMI is ${BMI} and it means Severely Underweigh`)
+// }
+// else if(BMI>=16&&BMI<18.5)
+// {
+//     console.log(`Your BMI is ${BMI} and it means Underweight`)
+// }
+// else if(BMI>=18.5&&BMI<25)
+// {
+//     console.log(`Your BMI is ${BMI} and it means Normal`)
+// }
+// else if(BMI>=25&&BMI<30)
+// {
+//     console.log(`Your BMI is ${BMI} and it means Overweight `)
+// }
+// else if(BMI<0)
+// {
+//     console.log(`Nhập sai mời nhập lại`);
+// }
+// else console.log(`Your BMI is ${BMI} and it means Obese `);
+
+
+//2.
+// let n=parseInt(prompt("Nhập n"));
+// let factorial=1
+// for(let i=1;i<=n;i++)
+// {
+//     factorial=factorial*i;
+// }
+// console.log(`Giai thừa của n là ${factorial}`);
